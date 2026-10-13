@@ -4,8 +4,8 @@ Run this before every launch. If anything fails, fix it before going live. A bro
 every number below it meaningless.
 
 ## The right account
-- [ ] Ad account name and ID match `company.md` for this company
-- [ ] The Page and Instagram account match `company.md`
+- [ ] Ad account name and ID match `company.md` and `ACCOUNTS.md` for this company
+- [ ] The Page and Instagram account match `company.md` (picked by ID, not by name)
 - [ ] Account is active, payment method works, no spending limit about to hit
 - [ ] Currency is right (USD vs COP) and the budget is written in that currency
 

@@ -268,6 +268,65 @@
           "fix": "Sales problem: the call, the offer, or the follow-up. Not an ad problem."
         }
       }
+    },
+    "ecommerce_sales": {
+      "label": "Online store: purchases",
+      "steps": [
+        [
+          "impressions",
+          "Seen"
+        ],
+        [
+          "clicks",
+          "Clicked"
+        ],
+        [
+          "add_to_cart",
+          "Added to cart"
+        ],
+        [
+          "purchases",
+          "Purchase"
+        ]
+      ],
+      "score": "purchases",
+      "early_signal": "add_to_cart",
+      "handoffs": {
+        "ctr": {
+          "label": "Seen to clicked (link CTR)",
+          "num": "clicks",
+          "den": "impressions",
+          "min_den": 1000,
+          "better": "higher",
+          "red": 0.009,
+          "green": 0.015,
+          "suspicious_over": 0.08,
+          "source": "Databox 2026 (2,800+ companies): median link CTR 1.18%. Our starting rule around it.",
+          "fix": "Stronger first line and first frame, or a clearer offer."
+        },
+        "click_to_cart": {
+          "label": "Clicked to added to cart",
+          "num": "add_to_cart",
+          "den": "clicks",
+          "min_den": 100,
+          "better": "higher",
+          "red": 0.04,
+          "green": 0.08,
+          "source": "Our starting rule. No solid public number for Meta traffic specifically.",
+          "fix": "The product page doesn't match the ad, or price and shipping surprise people. Same product, same photo, clear price."
+        },
+        "cart_to_purchase": {
+          "label": "Added to cart to purchase",
+          "num": "purchases",
+          "den": "add_to_cart",
+          "min_den": 20,
+          "better": "higher",
+          "red": 0.25,
+          "green": 0.4,
+          "source": "Our starting rule. Triple Whale 2025 (nearly 35,000 stores) via Superscale: 1.6% median visit-to-purchase, 1.20-2.02% by industry.",
+          "fix": "Checkout problem: shipping cost, payment options, trust. Not an ad problem."
+        }
+      }
     }
   },
   "creative": {

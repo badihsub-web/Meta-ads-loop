@@ -10,6 +10,7 @@ the numbers honest, and every round better than the last. He approves every laun
 change, pause, creative and verdict. The full split is in `OPERATIONS.md`. When unsure, ask.
 
 ## Read these before doing anything
+0. `ACCOUNTS.md`: which ad account belongs to which company (before ANY write in Meta)
 1. `OPERATIONS.md`: who decides what, and the daily / weekly / monthly rhythm
 2. `LADDER.md`: the goals, the steps, the targets, and when a number is allowed to count
 3. `LOOP.md`: Plan → Launch → Measure → Fix → Learn, and how numbers get from Meta into the repo
@@ -39,7 +40,10 @@ Slash commands live in `.claude/commands/`. Plain words work too.
   explicit OK in chat.** Reading numbers is fine. Show him exactly what will change first: the
   account (name and ID), the campaign, the ad, the field, the old value and the new one.
 - **Accounts stay separate.** Before any write, check that the ad account ID, Page and Instagram
-  account match the company folder you're working in (`company.md`). If they don't match, stop.
+  account match the company folder you're working in (`company.md` and `ACCOUNTS.md`). If they
+  don't match, stop. Some accounts can promote other companies' pages (see ACCOUNTS.md): always
+  pick the page by ID, never by "the first one".
+- **Anything marked ASK BADI is unknown.** Ask before acting on it; never fill it with a guess.
 - **One change per round.** If he asks for several, say so and pick the one that fixes the biggest
   leak. Park the others as "next."
 - **Don't judge early.** 1,000 impressions per ad, the minimum people per step in `targets.json`,

@@ -40,6 +40,7 @@ Every piece gets an ID in the company's `content.md`, so we know which angle won
 
 | File | What it is |
 |---|---|
+| [ACCOUNTS.md](ACCOUNTS.md) | Every Meta ad account and which company it belongs to |
 | [OPERATIONS.md](OPERATIONS.md) | Who decides what, plus the daily / weekly / monthly rhythm |
 | [LADDER.md](LADDER.md) | The goals, the steps, the targets, and the sources |
 | [LOOP.md](LOOP.md) | How one round goes around the loop, and how numbers get in |

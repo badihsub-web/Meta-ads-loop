@@ -17,6 +17,7 @@ This page explains them.
 | `app_subscriptions` | Seen → Clicked → Installed → Started trial → Paid | Installs | **Paying subscribers** |
 | `whatsapp_sales` | Seen → Clicked → Conversation → Qualified → Sale | Conversations | **Sales** |
 | `leads_booked` | Seen → Clicked → Lead → Booked → Won | Leads | **Clients won** |
+| `ecommerce_sales` | Seen → Clicked → Added to cart → Purchase | Adds to cart | **Purchases** |
 
 Where each number comes from:
 
@@ -52,6 +53,8 @@ If any of these is red, the setup is the problem, not the creative. Fix it befor
 | leads | Clicked → lead | 4% | 8% | 100 clicks | WordStream (726 lead campaigns, 2024–25): 7.72% average. |
 | leads | Lead → booked | 15% | 30% | 20 leads | Our starting rule. |
 | leads | Booked → won | 15% | 30% | 10 people | Our starting rule. |
+| store | Clicked → added to cart | 4% | 8% | 100 clicks | Our starting rule. |
+| store | Added to cart → purchase | 25% | 40% | 20 carts | Our starting rule. Triple Whale 2025 (~35,000 stores): 1.6% median visit to purchase. |
 
 Yellow means in between: normal, but not good yet.
 
