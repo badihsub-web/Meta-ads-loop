@@ -31,6 +31,8 @@ every number below it meaningless.
 - [ ] Sizes fit the placements (9:16 for Reels and Stories, 4:5 or 1:1 for feed)
 
 ## Go
+- [ ] Start time scheduled: at least 6 hours after setup, never before 11:00 PM, default 6:00 AM
+      the next day (Bogotá time, written with its offset). Nothing goes live immediately.
 - [ ] Badi said go, after seeing: account, what goes live, daily budget, start date
 - [ ] `campaign.json` has the Meta campaign ID, `first_live` and `last_change`
 - [ ] **Day-1 check:** every ad is delivering, none rejected, spend is pacing

@@ -39,6 +39,12 @@ Slash commands live in `.claude/commands/`. Plain words work too.
 - **Never create, launch, publish, pause, delete, boost, or change a budget in Meta without Badi's
   explicit OK in chat.** Reading numbers is fine. Show him exactly what will change first: the
   account (name and ID), the campaign, the ad, the field, the old value and the new one.
+- **Start times: never go live right away (Badi's rule, 2026-10-13).** Every new campaign, ad set or
+  ad gets a scheduled start at least 6 hours after it's set up, rounded up to the next full hour,
+  and never earlier than 11:00 PM. **Default: 6:00 AM the next day.** Example: set up at 4:54 PM on
+  Oct 13 → earliest 11:00 PM Oct 13, default 6:00 AM Oct 14. Times are Bogotá time (UTC-5); write
+  the start time with its offset (e.g. `2026-10-14T06:00:00-05:00`) because the ad account's own
+  time zone can differ. Check the time with the clock tool, never guess it.
 - **Accounts stay separate.** Before any write, check that the ad account ID, Page and Instagram
   account match the company folder you're working in (`company.md` and `ACCOUNTS.md`). If they
   don't match, stop. Some accounts can promote other companies' pages (see ACCOUNTS.md): always
