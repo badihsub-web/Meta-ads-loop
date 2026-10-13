@@ -1,0 +1,7 @@
+{
+  "company": "demo-app", "name": "2026-09-v1", "goal": "app_subscriptions",
+  "changed": "baseline", "fix_target": null, "baseline": null,
+  "currency": "USD", "daily_budget": 40, "target_cost_per_result": 6,
+  "first_live": "2026-09-01", "last_change": "2026-09-01", "verdict": "keep (baseline)",
+  "manual": {"trials": 18, "paid": 5, "rejected_ads": 0, "learning_limited": false}
+}

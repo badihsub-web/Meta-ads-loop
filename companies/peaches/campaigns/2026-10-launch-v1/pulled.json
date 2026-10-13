@@ -1,0 +1,36 @@
+{
+  "pulled_at": "2026-10-13T16:40",
+  "source": "Meta Ads connector: ads_get_ad_entities, level=ad and level=adset with publisher_platform + platform_position breakdowns, date_preset=maximum",
+  "hooked_metric": null,
+  "_note": "The connector returned no 3-second or 2-second video plays for these ads, so hook rate has no data this round. Trials and paid subs are not in Meta yet; they come from App Store Connect / Firebase into campaign.json manual.",
+  "totals": {
+    "spend": 32.37,
+    "impressions": 1300,
+    "reach": 791,
+    "frequency": 1.64,
+    "clicks": 165,
+    "installs": 6
+  },
+  "ads": [
+    {"id": "120252668097040136", "name": "02 · Carousel · You're not lazy", "status": "ACTIVE", "spend": 17.84, "impressions": 846, "reach": 593, "clicks": 147, "installs": 4, "hooked": null, "thruplays": 54},
+    {"id": "120252668097050136", "name": "01 · Static · 23 things", "status": "ACTIVE", "spend": 7.60, "impressions": 248, "reach": 177, "clicks": 8, "installs": 1, "hooked": null, "thruplays": null},
+    {"id": "120252668097010136", "name": "06 · Poster · Some things can wait", "status": "ACTIVE", "spend": 4.19, "impressions": 122, "reach": 92, "clicks": 2, "installs": 0, "hooked": null, "thruplays": null},
+    {"id": "120252668097000136", "name": "07 · Video · Podcast", "status": "ACTIVE", "spend": 2.12, "impressions": 42, "reach": 37, "clicks": 5, "installs": 0, "hooked": null, "thruplays": 7},
+    {"id": "120252668097020136", "name": "05 · Carousel · 3 Non-Negotiables", "status": "ACTIVE", "spend": 0.43, "impressions": 34, "reach": 34, "clicks": 3, "installs": 1, "hooked": null, "thruplays": 1},
+    {"id": "120252668097030136", "name": "04 · Video · UGC guy", "status": "ACTIVE", "spend": 0.05, "impressions": 5, "reach": 3, "clicks": 0, "installs": 0, "hooked": null, "thruplays": null},
+    {"id": "120252668097060136", "name": "03 · Video · Sorting game", "status": "ACTIVE", "spend": 0.14, "impressions": 3, "reach": 3, "clicks": 0, "installs": 0, "hooked": null, "thruplays": null}
+  ],
+  "placements": [
+    {"platform": "instagram", "position": "feed", "spend": 12.85, "impressions": 419, "clicks": 16, "installs": 1},
+    {"platform": "facebook", "position": "feed", "spend": 7.01, "impressions": 230, "clicks": 10, "installs": 1},
+    {"platform": "facebook", "position": "facebook_reels", "spend": 4.44, "impressions": 82, "clicks": 8, "installs": 0},
+    {"platform": "instagram", "position": "instagram_reels", "spend": 3.47, "impressions": 157, "clicks": 1, "installs": 0},
+    {"platform": "instagram", "position": "instagram_stories", "spend": 3.30, "impressions": 112, "clicks": 4, "installs": 0},
+    {"platform": "audience_network", "position": "an_classic", "spend": 0.82, "impressions": 192, "clicks": 97, "installs": 3},
+    {"platform": "facebook", "position": "facebook_stories", "spend": 0.55, "impressions": 6, "clicks": 0, "installs": 0},
+    {"platform": "facebook", "position": "facebook_reels_overlay", "spend": 0.26, "impressions": 58, "clicks": 0, "installs": 0},
+    {"platform": "facebook", "position": "instream_video", "spend": 0.22, "impressions": 5, "clicks": 1, "installs": 0},
+    {"platform": "audience_network", "position": "rewarded_video", "spend": 0.20, "impressions": 40, "clicks": 28, "installs": 1},
+    {"platform": "instagram", "position": "instagram_explore_grid_home", "spend": 0.02, "impressions": 1, "clicks": 0, "installs": 0}
+  ]
+}

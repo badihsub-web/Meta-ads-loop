@@ -1,0 +1,13 @@
+{
+  "pulled_at": "2026-09-15T09:00", "source": "made up", "hooked_metric": "3-second video plays",
+  "totals": {"spend": 560, "impressions": 30000, "reach": 16000, "frequency": 1.9, "clicks": 1500, "installs": 140},
+  "ads": [
+    {"name": "A · Video · Control", "spend": 380, "impressions": 21000, "clicks": 1100, "installs": 105, "hooked": 5900, "thruplays": 1900},
+    {"name": "B · Static · Challenger", "spend": 180, "impressions": 9000, "clicks": 400, "installs": 35, "hooked": null, "thruplays": null}
+  ],
+  "placements": [
+    {"platform": "instagram", "position": "feed", "spend": 300, "impressions": 14000, "clicks": 420, "installs": 60},
+    {"platform": "facebook", "position": "feed", "spend": 200, "impressions": 9000, "clicks": 300, "installs": 45},
+    {"platform": "audience_network", "position": "an_classic", "spend": 60, "impressions": 7000, "clicks": 780, "installs": 35}
+  ]
+}

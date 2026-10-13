@@ -1,0 +1,27 @@
+{
+  "company": "company-folder-name",
+  "name": "2026-10-name-v1",
+  "goal": "app_subscriptions",
+  "changed": "baseline",
+  "fix_target": null,
+  "baseline": null,
+  "ad_account_id": "",
+  "meta_campaign_id": "",
+  "meta_campaign_name": "",
+  "currency": "USD",
+  "daily_budget": null,
+  "target_cost_per_result": null,
+  "first_live": null,
+  "last_change": null,
+  "verdict": "pending",
+  "manual": {
+    "trials": null,
+    "paid": null,
+    "qualified": null,
+    "sales": null,
+    "booked": null,
+    "won": null,
+    "rejected_ads": null,
+    "learning_limited": null
+  }
+}

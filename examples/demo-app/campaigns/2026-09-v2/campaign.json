@@ -1,0 +1,8 @@
+{
+  "company": "demo-app", "name": "2026-09-v2", "goal": "app_subscriptions",
+  "changed": "placements: Facebook + Instagram only (no Audience Network)",
+  "fix_target": "click_to_install", "baseline": "2026-09-v1",
+  "currency": "USD", "daily_budget": 40, "target_cost_per_result": 6,
+  "first_live": "2026-09-16", "last_change": "2026-09-16", "verdict": "pending",
+  "manual": {"trials": 21, "paid": 7, "rejected_ads": 0, "learning_limited": false}
+}

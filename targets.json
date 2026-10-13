@@ -1,0 +1,298 @@
+{
+  "_read_me": "The one place our target numbers live. scripts/ladder.py reads this file. LADDER.md explains every number and where it came from. Change a target only on purpose and with Badi's OK, and write why in playbook/lessons.md, because old rounds were judged against the old number.",
+  "version": "2026-10-13",
+  "rules": {
+    "min_impressions_to_judge_ad": 1000,
+    "wait_days_after_change": 7,
+    "kill_after_spend_multiple": 2,
+    "max_budget_change": 0.2,
+    "learning_events_per_week": 50
+  },
+  "health": {
+    "frequency": {
+      "label": "Frequency (times each person saw the ads)",
+      "formula": "impressions / reach, from Meta",
+      "better": "lower",
+      "green": 2.0,
+      "red": 3.0,
+      "source": "Cropink (practitioner): keep cold audiences under 2 per week. Databox 2026: 3.01 median across all campaign types.",
+      "fix": "Same people are seeing the same ads. Add new creatives or widen the audience before the CPM climbs."
+    },
+    "rejected_ads": {
+      "label": "Rejected or limited ads",
+      "formula": "count, typed in campaign.json manual.rejected_ads after the daily check",
+      "better": "lower",
+      "green": 0,
+      "red": 1,
+      "source": "Our rule. A rejected ad means the account is losing delivery and its standing.",
+      "fix": "Read the rejection reason, fix the creative or copy, and request a review. Never publish the same thing twice."
+    },
+    "learning_limited": {
+      "label": "Learning limited",
+      "formula": "true/false from Ads Manager, typed in campaign.json manual.learning_limited",
+      "better": "lower",
+      "green": 0,
+      "red": 1,
+      "source": "Meta Business Help Center via Jetfuel 2026: the learning phase needs about 50 optimization events per ad set in 7 days. Below that, delivery stays unstable.",
+      "fix": "Fewer ad sets, more budget per ad set, or optimize for an event that happens more often. Don't judge creatives on unstable delivery."
+    },
+    "audience_network_clicks": {
+      "label": "Share of clicks from Audience Network",
+      "formula": "Audience Network link clicks / all link clicks (placement breakdown in pulled.json)",
+      "better": "lower",
+      "green": 0.2,
+      "red": 0.5,
+      "source": "Our rule after L-002 (2026-10-13): on Peaches launch day 1, Audience Network gave 76% of clicks for 3% of spend. Those clicks mostly don't behave like real people.",
+      "fix": "Blended numbers are lying. Judge Facebook and Instagram placements apart, and ask Badi before excluding Audience Network."
+    }
+  },
+  "goals": {
+    "app_subscriptions": {
+      "label": "App: paying subscribers",
+      "steps": [
+        [
+          "impressions",
+          "Seen"
+        ],
+        [
+          "clicks",
+          "Clicked"
+        ],
+        [
+          "installs",
+          "Installed"
+        ],
+        [
+          "trials",
+          "Started trial"
+        ],
+        [
+          "paid",
+          "Paying subscriber"
+        ]
+      ],
+      "score": "paid",
+      "early_signal": "installs",
+      "handoffs": {
+        "ctr": {
+          "label": "Seen to clicked (link CTR)",
+          "num": "clicks",
+          "den": "impressions",
+          "min_den": 1000,
+          "better": "higher",
+          "red": 0.009,
+          "green": 0.015,
+          "suspicious_over": 0.08,
+          "source": "Databox 2026 (2,800+ companies): median link CTR 1.18%. Lines around it are our starting rule. Over 8% is almost never real people: check placements (Audience Network) and accidental taps.",
+          "fix": "Stronger first line and first frame, or a clearer reason to tap. Change one of these, not all."
+        },
+        "click_to_install": {
+          "label": "Clicked to installed",
+          "num": "installs",
+          "den": "clicks",
+          "min_den": 100,
+          "better": "higher",
+          "red": 0.1,
+          "green": 0.25,
+          "source": "AppTweak H1 2024 via Adapty: about 25% of US App Store page views become installs (all traffic). Paid social clicks convert lower, so 10% red is our starting rule.",
+          "fix": "The ad promises something the App Store page doesn't show, the clicks aren't real, or Meta undercounts iOS installs. Check placements, App Store Connect installs, and that the ad and the store page say the same thing."
+        },
+        "install_to_trial": {
+          "label": "Installed to started trial",
+          "num": "trials",
+          "den": "installs",
+          "min_den": 50,
+          "better": "higher",
+          "red": 0.05,
+          "green": 0.1,
+          "source": "Adapty: download to trial 7.3% in North America, 9.8% median for higher-priced apps (no sample named). Our lines sit around it.",
+          "fix": "Onboarding or paywall problem, not an ad problem. Show the paywall at the right moment and make the trial offer clear."
+        },
+        "trial_to_paid": {
+          "label": "Trial to paying subscriber",
+          "num": "paid",
+          "den": "trials",
+          "min_den": 10,
+          "better": "higher",
+          "red": 0.25,
+          "green": 0.4,
+          "source": "RevenueCat State of Subscription Apps 2026 (115,000+ apps): trials under 4 days convert 25.5% median, 17-32 day trials 42.5%.",
+          "fix": "People try it but don't stay. Make the first days in the app deliver the promise of the ad; remind before the trial ends."
+        }
+      }
+    },
+    "whatsapp_sales": {
+      "label": "WhatsApp: sales from conversations",
+      "steps": [
+        [
+          "impressions",
+          "Seen"
+        ],
+        [
+          "clicks",
+          "Clicked"
+        ],
+        [
+          "conversations",
+          "Started a conversation"
+        ],
+        [
+          "qualified",
+          "Qualified (real buyer, in coverage)"
+        ],
+        [
+          "sales",
+          "Sale"
+        ]
+      ],
+      "score": "sales",
+      "early_signal": "conversations",
+      "handoffs": {
+        "ctr": {
+          "label": "Seen to clicked (link CTR)",
+          "num": "clicks",
+          "den": "impressions",
+          "min_den": 1000,
+          "better": "higher",
+          "red": 0.009,
+          "green": 0.015,
+          "suspicious_over": 0.08,
+          "source": "Databox 2026 (2,800+ companies): median link CTR 1.18%. Our starting rule around it.",
+          "fix": "Stronger first line and first frame, or a clearer offer (price, speed, zone)."
+        },
+        "click_to_conversation": {
+          "label": "Clicked to started a conversation",
+          "num": "conversations",
+          "den": "clicks",
+          "min_den": 100,
+          "better": "higher",
+          "red": 0.3,
+          "green": 0.6,
+          "source": "Our starting rule. Kanal 2026: no independent public benchmark exists for click-to-WhatsApp. Each company's own best becomes the bar after 3 rounds.",
+          "fix": "The pre-filled message or the WhatsApp greeting loses people. Make the first message one tap and answer instantly."
+        },
+        "conversation_to_qualified": {
+          "label": "Conversation to qualified",
+          "num": "qualified",
+          "den": "conversations",
+          "min_den": 20,
+          "better": "higher",
+          "red": 0.2,
+          "green": 0.4,
+          "source": "Our starting rule. No public benchmark.",
+          "fix": "Wrong people are writing (outside coverage, curious, not buyers). Tighten the location and say the price or zone in the ad."
+        },
+        "qualified_to_sale": {
+          "label": "Qualified to sale",
+          "num": "sales",
+          "den": "qualified",
+          "min_den": 10,
+          "better": "higher",
+          "red": 0.15,
+          "green": 0.3,
+          "source": "Our starting rule. No public benchmark.",
+          "fix": "Sales follow-up problem: reply speed, script, or offer. Not an ad problem."
+        }
+      }
+    },
+    "leads_booked": {
+      "label": "Leads: calls or visits booked, clients won",
+      "steps": [
+        [
+          "impressions",
+          "Seen"
+        ],
+        [
+          "clicks",
+          "Clicked"
+        ],
+        [
+          "leads",
+          "Lead"
+        ],
+        [
+          "booked",
+          "Booked"
+        ],
+        [
+          "won",
+          "Client won"
+        ]
+      ],
+      "score": "won",
+      "early_signal": "leads",
+      "handoffs": {
+        "ctr": {
+          "label": "Seen to clicked (link CTR)",
+          "num": "clicks",
+          "den": "impressions",
+          "min_den": 1000,
+          "better": "higher",
+          "red": 0.009,
+          "green": 0.015,
+          "suspicious_over": 0.08,
+          "source": "Databox 2026 (2,800+ companies): median link CTR 1.18%. Our starting rule around it.",
+          "fix": "Stronger first line and first frame, or a clearer offer."
+        },
+        "click_to_lead": {
+          "label": "Clicked to lead",
+          "num": "leads",
+          "den": "clicks",
+          "min_den": 100,
+          "better": "higher",
+          "red": 0.04,
+          "green": 0.08,
+          "source": "WordStream (726 lead campaigns, Apr 2024 to Jun 2025) via Superscale: lead-gen conversion 7.72% average.",
+          "fix": "The form or page asks too much, or doesn't match the ad. Fewer fields, same promise as the ad."
+        },
+        "lead_to_booked": {
+          "label": "Lead to booked",
+          "num": "booked",
+          "den": "leads",
+          "min_den": 20,
+          "better": "higher",
+          "red": 0.15,
+          "green": 0.3,
+          "source": "Our starting rule. No public benchmark for Meta leads specifically.",
+          "fix": "Call or message every lead within 5 minutes, and offer two specific times."
+        },
+        "booked_to_won": {
+          "label": "Booked to client won",
+          "num": "won",
+          "den": "booked",
+          "min_den": 10,
+          "better": "higher",
+          "red": 0.15,
+          "green": 0.3,
+          "source": "Our starting rule. No public benchmark.",
+          "fix": "Sales problem: the call, the offer, or the follow-up. Not an ad problem."
+        }
+      }
+    }
+  },
+  "creative": {
+    "hook_rate": {
+      "label": "Hook rate (video): stopped scrolling",
+      "num": "hooked",
+      "den": "impressions",
+      "min_den": 1000,
+      "better": "higher",
+      "red": 0.2,
+      "green": 0.3,
+      "source": "AdSights via Superscale 2026: cold feed 18-28%, median about 22-23%; Reels median about 30%. Practitioner data, no sample size.",
+      "fix": "The first 1-2 seconds don't stop the thumb. New first frame, a bolder first line, or motion in second one.",
+      "formula_note": "hooked = 3-second video plays from Ads Manager. The connector doesn't return 3-second plays yet; use 2-second continuous plays when it returns them and write which one in pulled.json (hooked_metric). If neither is there, hook rate shows 'no data'."
+    },
+    "hold_rate": {
+      "label": "Hold rate (video): kept watching",
+      "num": "thruplays",
+      "den": "hooked",
+      "min_den": 200,
+      "better": "higher",
+      "red": 0.25,
+      "green": 0.4,
+      "source": "AdManage 2026 roundup of practitioner guides: 25% minimum, 40-50% average, 60%+ strong. Unverified, treat as a starting rule.",
+      "fix": "They stop but leave. The middle is slow or the promise comes too late. Cut the video shorter and show the payoff sooner."
+    }
+  }
+}
