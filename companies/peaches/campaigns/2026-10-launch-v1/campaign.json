@@ -1,7 +1,7 @@
 {
   "company": "peaches",
   "name": "2026-10-launch-v1",
-  "goal": "app_subscriptions",
+  "goal": "app_freemium",
   "changed": "baseline (launch, built before this system)",
   "fix_target": null,
   "baseline": null,
@@ -15,7 +15,6 @@
   "last_change": "2026-10-12",
   "verdict": "pending",
   "manual": {
-    "trials": null,
     "paid": null,
     "store_installs": null,
     "rejected_ads": null,

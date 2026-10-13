@@ -327,6 +327,65 @@
           "fix": "Checkout problem: shipping cost, payment options, trust. Not an ad problem."
         }
       }
+    },
+    "app_freemium": {
+      "label": "App (free forever + paid upgrade): paying subscribers",
+      "steps": [
+        [
+          "impressions",
+          "Seen"
+        ],
+        [
+          "clicks",
+          "Clicked"
+        ],
+        [
+          "installs",
+          "Installed"
+        ],
+        [
+          "paid",
+          "Paying subscriber"
+        ]
+      ],
+      "score": "paid",
+      "early_signal": "installs",
+      "handoffs": {
+        "ctr": {
+          "label": "Seen to clicked (link CTR)",
+          "num": "clicks",
+          "den": "impressions",
+          "min_den": 1000,
+          "better": "higher",
+          "red": 0.009,
+          "green": 0.015,
+          "suspicious_over": 0.08,
+          "source": "Databox 2026 (2,800+ companies): median link CTR 1.18%. Lines around it are our starting rule. Over 8% is almost never real people: check placements (Audience Network) and accidental taps.",
+          "fix": "Stronger first line and first frame, or a clearer reason to tap. Change one of these, not all."
+        },
+        "click_to_install": {
+          "label": "Clicked to installed",
+          "num": "installs",
+          "den": "clicks",
+          "min_den": 100,
+          "better": "higher",
+          "red": 0.1,
+          "green": 0.25,
+          "source": "AppTweak H1 2024 via Adapty: about 25% of US App Store page views become installs (all traffic). Paid social clicks convert lower, so 10% red is our starting rule.",
+          "fix": "The ad promises something the App Store page doesn't show, the clicks aren't real, or Meta undercounts iOS installs. Check placements, App Store Connect installs, and that the ad and the store page say the same thing."
+        },
+        "install_to_paid": {
+          "label": "Installed to paying subscriber",
+          "num": "paid",
+          "den": "installs",
+          "min_den": 100,
+          "better": "higher",
+          "red": 0.02,
+          "green": 0.05,
+          "source": "RevenueCat State of Subscription Apps 2026 (115,000+ apps): freemium download-to-paid median 2.1% at day 35 (hard paywall 10.7%). 2025 report: freemium top 10% at 7.9%.",
+          "fix": "People like the free version enough to never pay. Make the paid upgrade obvious and worth it, or test a trial or a paywall."
+        }
+      }
     }
   },
   "creative": {

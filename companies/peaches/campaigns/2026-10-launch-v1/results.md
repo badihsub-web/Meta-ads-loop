@@ -1,7 +1,7 @@
 # Results: peaches · 2026-10-launch-v1
 
 Scored 2026-10-13 by scripts/ladder.py. Don't edit by hand; rerun the script.
-Numbers pulled from Meta: 2026-10-13T16:40. Goal: **App: paying subscribers**. Targets version 2026-10-13.
+Numbers pulled from Meta: 2026-10-13T16:40. Goal: **App (free forever + paid upgrade): paying subscribers**. Targets version 2026-10-13.
 
 > ⚪ **Too early to call a verdict.** Day 1 of 7 since the last change. Meta is still learning; watch health lights only.
 
@@ -29,8 +29,7 @@ Numbers pulled from Meta: 2026-10-13T16:40. Goal: **App: paying subscribers**. T
 | Seen | 1,300 | | | | |
 | Clicked | 165 | Seen to clicked (link CTR) | 12.7% | 1.5% | 🟣 check: too good to be real |
 | Installed | 6 | Clicked to installed | 3.6% | 25.0% | 🔴 fix |
-| Started trial | — | Installed to started trial | — | 10.0% | · no data |
-| Paying subscriber | — | Trial to paying subscriber | — | 40.0% | · no data |
+| Paying subscriber | — | Installed to paying subscriber | — | 5.0% | · no data |
 
 Creative (video only):
 

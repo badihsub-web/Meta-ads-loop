@@ -7,3 +7,4 @@ Ideas waiting for a round. Each one is tied to the step it should fix. Badi appr
 | T-001 | 2026-10-13 | peaches | Clicked → installed | Split Audience Network from Facebook/Instagram (separate ad set or exclusion) and compare cost per **trial**, not per install. | L-002 | proposed |
 | T-002 | 2026-10-13 | peaches | Learning limited | Fewer ads per ad set (3–4 instead of 7), so each gets enough spend to be judged at $25/day. | LADDER.md per-ad rule; Meta learning phase | proposed |
 | T-003 | 2026-10-13 | all | Seen → clicked | Turn the best existing organic post into an ad (boost) as a challenger against the best upload. | Badi's plan: organic first, boost winners | proposed |
+| T-004 | 2026-10-13 | peaches | Installed → paid | Test a free trial or paywall at the right moment instead of free forever. App change, not an ad change: Badi and JJJ decide. | RevenueCat 2026 via SaaStr | proposed |

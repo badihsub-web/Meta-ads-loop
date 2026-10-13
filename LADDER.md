@@ -15,6 +15,7 @@ This page explains them.
 | Goal | Steps | Early signal | **Score** |
 |---|---|---|---|
 | `app_subscriptions` | Seen → Clicked → Installed → Started trial → Paid | Installs | **Paying subscribers** |
+| `app_freemium` | Seen → Clicked → Installed → Paid | Installs | **Paying subscribers** |
 | `whatsapp_sales` | Seen → Clicked → Conversation → Qualified → Sale | Conversations | **Sales** |
 | `leads_booked` | Seen → Clicked → Lead → Booked → Won | Leads | **Clients won** |
 | `ecommerce_sales` | Seen → Clicked → Added to cart → Purchase | Adds to cart | **Purchases** |
@@ -47,6 +48,7 @@ If any of these is red, the setup is the problem, not the creative. Fix it befor
 | app | Clicked → installed | 10% | 25% | 100 clicks | AppTweak H1 2024 via Adapty: about 25% of US App Store page views install (all traffic). Paid social converts lower. |
 | app | Installed → trial | 5% | 10% | 50 installs | Adapty: 7.3% download to trial in North America, 9.8% for higher-priced apps. |
 | app | Trial → paid | 25% | 40% | 10 trials | RevenueCat 2026 (115,000+ apps): trials under 4 days 25.5% median, 17–32 days 42.5%. |
+| freemium app | Installed → paid | 2% | 5% | 100 installs | RevenueCat 2026: freemium download to paid 2.1% median at day 35 (hard paywall 10.7%); 2025: top 10% at 7.9%. |
 | WhatsApp | Clicked → conversation | 30% | 60% | 100 clicks | Our starting rule. Kanal 2026: no independent public benchmark exists. |
 | WhatsApp | Conversation → qualified | 20% | 40% | 20 chats | Our starting rule. |
 | WhatsApp | Qualified → sale | 15% | 30% | 10 people | Our starting rule. |
