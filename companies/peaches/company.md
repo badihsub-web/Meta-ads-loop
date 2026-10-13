@@ -8,6 +8,7 @@
 - **What the score means here:** a paying App Store subscriber ($4.99/month upgrade).
 - **What one is worth:** $4.99/month (Badi, 2026-10-13). Apple keeps 15% if Peaches is in the Small Business Program (30% if not: ASK BADI), so about $4.24/month to us. How long subscribers stay: unknown yet.
 - **The math that matters:** at the freemium median of about 2% of installs paying, cost per paying subscriber ≈ cost per install × 50. A year of one subscriber is at most about $51. So installs would need to cost about $1 to pay back in a year at median conversion. Day 1: $5.39 blended, about $15.70 on Facebook + Instagram.
+- **Pricing change in progress (2026-10-13):** JJJ is building a 7-day trial, $39.99/year as the main plan, and $7.99/month (T-004). When it ships, start a new round with goal `app_subscriptions` and compare it to the launch round.
 - **Target cost per early signal:** ASK BADI. See the math above: the target depends on how much payback time Badi accepts.
 - **Budget:** $600 for October 2026.
 
