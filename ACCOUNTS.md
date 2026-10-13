@@ -11,11 +11,16 @@ working on, stop and ask. Read from the Meta Ads connector on 2026-10-13.
 | peaches | Peaches APPS | 2670614096604811 | USD | peaches.app25 | active, live campaign | Clean: only the Peaches page |
 | legon-cali | (no name) | 378395842710408 | USD | none | active, nothing live | Los Mangos campaigns ran here. ⚠️ **Mixed account:** 9 pages can be promoted from it (Legón, Peaches, Eazyflow, La Red, Energy, Czy, Badi's own page). Always pick the Legón page by ID. |
 | la-red-quito | Ecuador, Telecom | 1069610225017837 | COP | Badih ADS | active, nothing live | Inca y Casas campaigns. Pages: LaRed.593, La Red Tv E Internet, La Red Telco |
-| eazyflow | Eazyflow Solutions | 1118129506147783 | USD | eazyflow.automations | active, nothing live | ASK BADI which Eazyflow account to use |
-| eazyflow | Eazyflow Service Providers | 822627703830753 | USD | eazyflow.automations | active, nothing live | Second Eazyflow account, same business |
-| aurora-lane | Aurora Lane | 1495812928055176 | COP | Aurora Lane | active, 4 live campaigns | "TRP" campaigns (Paper Dolls launch, Cali pop-up). ASK BADI who runs them before touching anything |
-| aurora-lane | Aurora Lane V2 | 1406939300549811 | COP | Aurora Lane | active, nothing live | Older |
-| practyco | (no name) | 410740764496142 | USD | none | active, 3 live campaigns | "Octubre plan smart" and WhatsApp/Messenger campaigns. Pages: La Red Telco, Practyco Costa. ASK BADI whose these are |
+| eazyflow | Eazyflow Solutions | 1118129506147783 | USD | eazyflow.automations | active, nothing live | **The Eazyflow account** (Claude's pick, Badi OK'd 2026-10-13: more history on it) |
+| eazyflow (spare) | Eazyflow Service Providers | 822627703830753 | USD | eazyflow.automations | active, nothing live | Spare. Don't use unless Badi says so |
+
+## Out of scope: never touch (read only if Badi asks)
+
+| Ad account | ID | Why |
+|---|---|---|
+| Aurora Lane | 1495812928055176 | Bre and her team run it. Badi: leave Aurora Lane out (2026-10-13) |
+| Aurora Lane V2 | 1406939300549811 | Same |
+| (no name), La Red Telco corporate | 410740764496142 | La Red Telco corporate's account ("Octubre plan smart"), not Badi's franchise |
 
 ## Not usable right now
 
@@ -24,7 +29,7 @@ working on, stop and ask. Read from the Meta Ads connector on 2026-10-13.
 | Quito, Badih (La Red Telco business) | 1872149746680544 | **Disabled** by Meta for unusual activity. La Red Quito runs on "Ecuador, Telecom" instead |
 | Eazyflow | 2147445879008395 | Closed |
 | Colombia, Telecom | 1638825880140191 | No payment method, never used |
-| Practyco Soluciones | 994999739642929 | No payment method, never used |
+| Practyco Soluciones | 994999739642929 | No payment method, never used. The only Practyco account Badi controls: add a payment method before Practyco can run ads |
 | Practyco Ventas | 980229574464851 | Read-only for Badi (someone else runs it) |
 | Defensor del usuario (Practyco) | 4401773236778301 | Read-only for Badi |
 | Legon | 470414712722149 | Legon business, never used by Badi |

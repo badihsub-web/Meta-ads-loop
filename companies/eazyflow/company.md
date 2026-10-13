@@ -9,7 +9,7 @@
 - **Target cost per early signal:** ASK BADI. Ad budget is Claude's recommendation (Badi, Oct 2026).
 
 ## Meta accounts (check before every write)
-- **Ad account:** Eazyflow Solutions · 1118129506147783 · USD · eazyflow.automations, or Eazyflow Service Providers · 822627703830753 (same business). ASK BADI which one.
+- **Ad account:** Eazyflow Solutions · 1118129506147783 · USD · eazyflow.automations. (Eazyflow Service Providers · 822627703830753 is a spare; don't use.)
 - **Facebook Page:** Eazyflow · 499882569878821
 - **Instagram:** none linked to these ad accounts. ASK BADI
 - **Tracking:** ASK BADI (site lives on Shopify, being redesigned; needs booked calls tracked)
