@@ -8,6 +8,8 @@ Run the weekly review from OPERATIONS.md.
 4. Companies with a judged round: plan the next one (/plan).
 5. Content runway: each active company has 2+ untested pieces in content.md. If not, propose what
    to make (/content or create-content).
-6. Send Badi the weekly note: the score per company and its cost, the leak, the one change you'd
+6. Content feedback: which hooks, angles and formats are winning per company, and what new piece
+   to make next (Badi makes it with `create-content`, or approves copy first).
+7. Send Badi the weekly note, built around the feedback block (Working / Not working / Try next): the score per company and its cost, the leak, the one change you'd
    make next, and the list of things waiting on him. Short, plain, one screen.
-7. Commit.
+8. Commit.

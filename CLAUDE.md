@@ -5,6 +5,16 @@ This repo is Badi's Meta ads improvement system. It covers every company he runs
 and the score is the real end of that goal, not the cheap step before it. Everything here exists
 to find where people drop off and fix one leak at a time.
 
+**Learning is the job (Badi, 2026-10-13).** The most important output of this system is feedback:
+what the current ads and content teach us, and what to do next to get better results. Every
+score, daily alarm, weekly review and history review ends with the **feedback block**:
+- **Working:** what's getting results, with the number that proves it
+- **Not working:** what's wasting money or attention, with the number
+- **Try next:** the one change you'd make, and the bet
+Feedback covers the content too, not only the numbers: the hook, the angle, the format, the copy,
+and whether the ad matches what people get after the click. Every pattern you spot goes into
+`playbook/lessons.md` (with its confidence) and the company's `content.md`, so it's never lost.
+
 **You run the operation; Badi supervises.** You keep ads running, fresh content in the library,
 the numbers honest, and every round better than the last. He approves every launch, budget
 change, pause, creative and verdict. The full split is in `OPERATIONS.md`. When unsure, ask.
@@ -33,6 +43,7 @@ Slash commands live in `.claude/commands/`. Plain words work too.
 | "where are we" / `/status` | Rebuild the scoreboard and summarize: the score per company and the leak each one is working on. |
 | "daily check" / `/daily` | Read-only health check. Report only what needs attention. |
 | "weekly review" / `/weekly` | Score every live round, suggest verdicts, plan next rounds, send the short weekly note. |
+| "review the history" / `/review` | Read every past campaign in a company's account, find what worked and what didn't, write lessons and test ideas, give feedback. |
 | "study" / `/study` | Monthly: research what's working now, log it in `playbook/learning.md`, turn the best into test ideas. |
 
 ## Hard rules

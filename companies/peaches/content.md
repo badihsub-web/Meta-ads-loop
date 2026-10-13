@@ -17,5 +17,10 @@ Status: **new** → **testing** → **winner** or **retired**.
 Angles and hooks above are read from the ad names; fix them when Badi or the creative says otherwise.
 Page posts on Instagram and Facebook are not listed yet: pull them with `/content peaches` when needed.
 
+## Content feedback (2026-10-13, day 1)
+- **Hooks in use:** "You're not lazy. Every task just looks urgent." (C-002, C-004) · "Not everything on your list is urgent." (C-003, C-005) · "Your list has 23 things. Only 3 actually matter." (C-007). The relief angle ("you're not lazy") got Meta's money first, but most of its clicks were Audience Network, so it's not proven yet.
+- **Mismatch:** every ad says "free trial", but the app is free forever with a $4.99 upgrade. Fine once JJJ's trial ships; until then the ad promises something different from what people get.
+- **Untested:** the 3 videos (UGC guy, Sorting game, Podcast) got almost no spend. Not losers, just never shown.
+
 ## Angles we've tried
 - Launch round 2026-10-launch-v1: all seven angles at once (baseline). Too early to call.
