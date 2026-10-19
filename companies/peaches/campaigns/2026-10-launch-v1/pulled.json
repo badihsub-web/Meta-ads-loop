@@ -1,36 +1,58 @@
 {
-  "pulled_at": "2026-10-13T16:40",
-  "source": "Meta Ads connector: ads_get_ad_entities, level=ad and level=adset with publisher_platform + platform_position breakdowns, date_preset=maximum",
+  "pulled_at": "2026-10-19T06:50",
+  "source": "Meta Ads connector: ads_get_ad_entities, level=ad, level=adset with publisher_platform + platform_position breakdowns, and age breakdown; time_range 2026-10-12 to 2026-10-18 (the whole run). Campaign paused by Badi on 2026-10-17 8:02 AM (activity log).",
   "hooked_metric": null,
-  "_note": "The connector returned no 3-second or 2-second video plays for these ads, so hook rate has no data this round. Trials and paid subs are not in Meta yet; they come from App Store Connect / Firebase into campaign.json manual.",
+  "_note": "The connector returned no 2-second continuous plays for these ads, and 3-second plays only at campaign/ad set level, so hook rate has no data per ad. Trials and paid subs are not in Meta; they come from App Store Connect / Firebase into campaign.json manual.",
   "totals": {
-    "spend": 32.37,
-    "impressions": 1300,
-    "reach": 791,
-    "frequency": 1.64,
-    "clicks": 165,
-    "installs": 6
+    "spend": 118.00,
+    "impressions": 4594,
+    "reach": 2168,
+    "frequency": 2.12,
+    "clicks": 426,
+    "installs": 25
   },
+  "daily": [
+    {"date": "2026-10-12", "spend": 15.51, "impressions": 786, "clicks": 146, "installs": 3},
+    {"date": "2026-10-13", "spend": 26.70, "impressions": 892, "clicks": 62, "installs": 7},
+    {"date": "2026-10-14", "spend": 23.69, "impressions": 968, "clicks": 99, "installs": 3},
+    {"date": "2026-10-15", "spend": 26.30, "impressions": 833, "clicks": 34, "installs": 11},
+    {"date": "2026-10-16", "spend": 22.73, "impressions": 992, "clicks": 65, "installs": 1},
+    {"date": "2026-10-17", "spend": 3.07, "impressions": 123, "clicks": 20, "installs": 0},
+    {"date": "2026-10-18", "spend": 0, "impressions": 0, "clicks": 0, "installs": 0}
+  ],
   "ads": [
-    {"id": "120252668097040136", "name": "02 · Carousel · You're not lazy", "status": "ACTIVE", "spend": 17.84, "impressions": 846, "reach": 593, "clicks": 147, "installs": 4, "hooked": null, "thruplays": 54},
-    {"id": "120252668097050136", "name": "01 · Static · 23 things", "status": "ACTIVE", "spend": 7.60, "impressions": 248, "reach": 177, "clicks": 8, "installs": 1, "hooked": null, "thruplays": null},
-    {"id": "120252668097010136", "name": "06 · Poster · Some things can wait", "status": "ACTIVE", "spend": 4.19, "impressions": 122, "reach": 92, "clicks": 2, "installs": 0, "hooked": null, "thruplays": null},
-    {"id": "120252668097000136", "name": "07 · Video · Podcast", "status": "ACTIVE", "spend": 2.12, "impressions": 42, "reach": 37, "clicks": 5, "installs": 0, "hooked": null, "thruplays": 7},
-    {"id": "120252668097020136", "name": "05 · Carousel · 3 Non-Negotiables", "status": "ACTIVE", "spend": 0.43, "impressions": 34, "reach": 34, "clicks": 3, "installs": 1, "hooked": null, "thruplays": 1},
-    {"id": "120252668097030136", "name": "04 · Video · UGC guy", "status": "ACTIVE", "spend": 0.05, "impressions": 5, "reach": 3, "clicks": 0, "installs": 0, "hooked": null, "thruplays": null},
-    {"id": "120252668097060136", "name": "03 · Video · Sorting game", "status": "ACTIVE", "spend": 0.14, "impressions": 3, "reach": 3, "clicks": 0, "installs": 0, "hooked": null, "thruplays": null}
+    {"id": "120252668097050136", "name": "01 · Static · 23 things", "status": "CAMPAIGN_PAUSED", "spend": 60.14, "impressions": 2233, "reach": 1266, "clicks": 127, "installs": 14, "hooked": null, "thruplays": null},
+    {"id": "120252668097040136", "name": "02 · Carousel · You're not lazy", "status": "CAMPAIGN_PAUSED", "spend": 44.66, "impressions": 1810, "reach": 1078, "clicks": 178, "installs": 9, "hooked": null, "thruplays": 57},
+    {"id": "120252668097010136", "name": "06 · Poster · Some things can wait", "status": "CAMPAIGN_PAUSED", "spend": 5.05, "impressions": 148, "reach": 107, "clicks": 2, "installs": 1, "hooked": null, "thruplays": null},
+    {"id": "120252668097000136", "name": "07 · Video · Podcast", "status": "CAMPAIGN_PAUSED", "spend": 4.13, "impressions": 241, "reach": 165, "clicks": 114, "installs": 0, "hooked": null, "thruplays": 57},
+    {"id": "120252668097020136", "name": "05 · Carousel · 3 Non-Negotiables", "status": "CAMPAIGN_PAUSED", "spend": 3.64, "impressions": 146, "reach": 109, "clicks": 4, "installs": 1, "hooked": null, "thruplays": 3},
+    {"id": "120252668097060136", "name": "03 · Video · Sorting game", "status": "CAMPAIGN_PAUSED", "spend": 0.25, "impressions": 8, "reach": 8, "clicks": 1, "installs": 0, "hooked": null, "thruplays": 3},
+    {"id": "120252668097030136", "name": "04 · Video · UGC guy", "status": "CAMPAIGN_PAUSED", "spend": 0.13, "impressions": 8, "reach": 6, "clicks": 0, "installs": 0, "hooked": null, "thruplays": 1}
   ],
   "placements": [
-    {"platform": "instagram", "position": "feed", "spend": 12.85, "impressions": 419, "clicks": 16, "installs": 1},
-    {"platform": "facebook", "position": "feed", "spend": 7.01, "impressions": 230, "clicks": 10, "installs": 1},
-    {"platform": "facebook", "position": "facebook_reels", "spend": 4.44, "impressions": 82, "clicks": 8, "installs": 0},
-    {"platform": "instagram", "position": "instagram_reels", "spend": 3.47, "impressions": 157, "clicks": 1, "installs": 0},
-    {"platform": "instagram", "position": "instagram_stories", "spend": 3.30, "impressions": 112, "clicks": 4, "installs": 0},
-    {"platform": "audience_network", "position": "an_classic", "spend": 0.82, "impressions": 192, "clicks": 97, "installs": 3},
-    {"platform": "facebook", "position": "facebook_stories", "spend": 0.55, "impressions": 6, "clicks": 0, "installs": 0},
-    {"platform": "facebook", "position": "facebook_reels_overlay", "spend": 0.26, "impressions": 58, "clicks": 0, "installs": 0},
-    {"platform": "facebook", "position": "instream_video", "spend": 0.22, "impressions": 5, "clicks": 1, "installs": 0},
-    {"platform": "audience_network", "position": "rewarded_video", "spend": 0.20, "impressions": 40, "clicks": 28, "installs": 1},
-    {"platform": "instagram", "position": "instagram_explore_grid_home", "spend": 0.02, "impressions": 1, "clicks": 0, "installs": 0}
+    {"platform": "instagram", "position": "feed", "spend": 35.22, "impressions": 1249, "clicks": 30, "installs": 7},
+    {"platform": "facebook", "position": "feed", "spend": 27.60, "impressions": 940, "clicks": 21, "installs": 3},
+    {"platform": "facebook", "position": "facebook_reels", "spend": 18.14, "impressions": 533, "clicks": 23, "installs": 1},
+    {"platform": "instagram", "position": "instagram_reels", "spend": 12.46, "impressions": 593, "clicks": 12, "installs": 1},
+    {"platform": "instagram", "position": "instagram_stories", "spend": 11.47, "impressions": 385, "clicks": 13, "installs": 2},
+    {"platform": "audience_network", "position": "an_classic", "spend": 9.60, "impressions": 635, "clicks": 271, "installs": 10},
+    {"platform": "facebook", "position": "facebook_stories", "spend": 1.18, "impressions": 28, "clicks": 0, "installs": 0},
+    {"platform": "facebook", "position": "facebook_reels_overlay", "spend": 0.93, "impressions": 107, "clicks": 1, "installs": 0},
+    {"platform": "facebook", "position": "instream_video", "spend": 0.79, "impressions": 13, "clicks": 1, "installs": 0},
+    {"platform": "audience_network", "position": "rewarded_video", "spend": 0.38, "impressions": 81, "clicks": 53, "installs": 1},
+    {"platform": "instagram", "position": "instagram_explore_grid_home", "spend": 0.12, "impressions": 20, "clicks": 1, "installs": 0},
+    {"platform": "facebook", "position": "facebook_profile_feed", "spend": 0.04, "impressions": 1, "clicks": 0, "installs": 0},
+    {"platform": "instagram", "position": "instagram_search", "spend": 0.03, "impressions": 5, "clicks": 0, "installs": 0},
+    {"platform": "facebook", "position": "marketplace", "spend": 0, "impressions": 2, "clicks": 0, "installs": 0},
+    {"platform": "facebook", "position": "search", "spend": 0, "impressions": 1, "clicks": 0, "installs": 0},
+    {"platform": "unknown", "position": "unknown", "spend": 0.04, "impressions": 1, "clicks": 0, "installs": 0}
+  ],
+  "age": [
+    {"age": "18-24", "spend": 26.11, "impressions": 1122, "clicks": 31, "installs": 2},
+    {"age": "25-34", "spend": 33.54, "impressions": 1255, "clicks": 69, "installs": 8},
+    {"age": "35-44", "spend": 22.56, "impressions": 768, "clicks": 41, "installs": 3},
+    {"age": "45-54", "spend": 14.45, "impressions": 490, "clicks": 74, "installs": 3},
+    {"age": "55-64", "spend": 10.52, "impressions": 478, "clicks": 82, "installs": 4},
+    {"age": "65+", "spend": 10.82, "impressions": 481, "clicks": 129, "installs": 5}
   ]
 }

@@ -1,34 +1,32 @@
 # Results: peaches · 2026-10-launch-v1
 
-Scored 2026-10-13 by scripts/ladder.py. Don't edit by hand; rerun the script.
-Numbers pulled from Meta: 2026-10-13T16:40. Goal: **App (free forever + paid upgrade): paying subscribers**. Targets version 2026-10-13.
-
-> ⚪ **Too early to call a verdict.** Day 1 of 7 since the last change. Meta is still learning; watch health lights only.
+Scored 2026-10-19 by scripts/ladder.py. Don't edit by hand; rerun the script.
+Numbers pulled from Meta: 2026-10-19T06:50. Goal: **App (free forever + paid upgrade): paying subscribers**. Targets version 2026-10-13.
 
 ## The score
 
 | What | Count | Cost each |
 |---|---:|---:|
 | **Paying subscriber** (the score) | **—** | **—** |
-| Installed (early signal) | 6 | $5.39 |
-| Spend | $32.37 | |
+| Installed (early signal) | 25 | $4.72 |
+| Spend | $118.00 | |
 
 ## Health lights (stop if red)
 
 | Light | Now | Green | Red | |
 |---|---:|---:|---:|---|
-| Frequency (times each person saw the ads) | 1.64x | 2.00x | 3.00x | 🟢 good |
+| Frequency (times each person saw the ads) | 2.12x | 2.00x | 3.00x | 🟡 average |
 | Rejected or limited ads | — | 0 | 1 | · no data |
 | Learning limited | — | no | yes | · no data |
-| Share of clicks from Audience Network | 75.8% | 20.0% | 50.0% | 🔴 fix |
+| Share of clicks from Audience Network | 76.1% | 20.0% | 50.0% | 🔴 fix |
 
 ## The ladder
 
 | Step | People | Handoff | Rate | Green at | |
 |---|---:|---|---:|---:|---|
-| Seen | 1,300 | | | | |
-| Clicked | 165 | Seen to clicked (link CTR) | 12.7% | 1.5% | 🟣 check: too good to be real |
-| Installed | 6 | Clicked to installed | 3.6% | 25.0% | 🔴 fix |
+| Seen | 4,594 | | | | |
+| Clicked | 426 | Seen to clicked (link CTR) | 9.3% | 1.5% | 🟣 check: too good to be real |
+| Installed | 25 | Clicked to installed | 5.9% | 25.0% | 🔴 fix |
 | Paying subscriber | — | Installed to paying subscriber | — | 5.0% | · no data |
 
 Creative (video only):
@@ -46,26 +44,31 @@ Target cost per installed: not set yet. An ad is judged after 1,000 impressions.
 
 | Ad | Spend | Share | Impr. | Link CTR | Hook | Installed | Cost each | Hint |
 |---|---:|---:|---:|---:|---:|---:|---:|---|
-| 02 · Carousel · You're not lazy | $17.84 | 55% | 846 | 17.4% ⚪ | —  | 4 | $4.46 | too early |
-| 01 · Static · 23 things | $7.60 | 23% | 248 | 3.2% ⚪ | —  | 1 | $7.60 | too early |
-| 06 · Poster · Some things can wait | $4.19 | 13% | 122 | 1.6% ⚪ | —  | 0 | — | too early |
-| 07 · Video · Podcast | $2.12 | 7% | 42 | 11.9% ⚪ | —  | 0 | — | too early |
-| 05 · Carousel · 3 Non-Negotiables | $0.43 | 1% | 34 | 8.8% ⚪ | —  | 1 | $0.43 | too early |
-| 03 · Video · Sorting game | $0.14 | 0% | 3 | 0.0% ⚪ | —  | 0 | — | too early |
-| 04 · Video · UGC guy | $0.05 | 0% | 5 | 0.0% ⚪ | —  | 0 | — | too early |
+| 01 · Static · 23 things | $60.14 | 51% | 2,233 | 5.7% 🟢 | —  | 14 | $4.30 | set target cost to judge |
+| 02 · Carousel · You're not lazy | $44.66 | 38% | 1,810 | 9.8% 🟣 | —  | 9 | $4.96 | set target cost to judge |
+| 06 · Poster · Some things can wait | $5.05 | 4% | 148 | 1.4% ⚪ | —  | 1 | $5.05 | too early |
+| 07 · Video · Podcast | $4.13 | 3% | 241 | 47.3% ⚪ | —  | 0 | — | too early |
+| 05 · Carousel · 3 Non-Negotiables | $3.64 | 3% | 146 | 2.7% ⚪ | —  | 1 | $3.64 | too early |
+| 03 · Video · Sorting game | $0.25 | 0% | 8 | 12.5% ⚪ | —  | 0 | — | too early |
+| 04 · Video · UGC guy | $0.13 | 0% | 8 | 0.0% ⚪ | —  | 0 | — | too early |
 
 ## Every placement
 
 | Placement | Spend | Impr. | Clicks | Link CTR | Installed | Cost each |
 |---|---:|---:|---:|---:|---:|---:|
-| instagram · feed | $12.85 | 419 | 16 | 3.8% | 1 | $12.85 |
-| facebook · feed | $7.01 | 230 | 10 | 4.3% | 1 | $7.01 |
-| facebook · facebook_reels | $4.44 | 82 | 8 | 9.8% | 0 | — |
-| instagram · instagram_reels | $3.47 | 157 | 1 | 0.6% | 0 | — |
-| instagram · instagram_stories | $3.30 | 112 | 4 | 3.6% | 0 | — |
-| audience_network · an_classic | $0.82 | 192 | 97 | 50.5% | 3 | $0.27 |
-| facebook · facebook_stories | $0.55 | 6 | 0 | 0.0% | 0 | — |
-| facebook · facebook_reels_overlay | $0.26 | 58 | 0 | 0.0% | 0 | — |
-| facebook · instream_video | $0.22 | 5 | 1 | 20.0% | 0 | — |
-| audience_network · rewarded_video | $0.20 | 40 | 28 | 70.0% | 1 | $0.20 |
-| instagram · instagram_explore_grid_home | $0.02 | 1 | 0 | 0.0% | 0 | — |
+| instagram · feed | $35.22 | 1,249 | 30 | 2.4% | 7 | $5.03 |
+| facebook · feed | $27.60 | 940 | 21 | 2.2% | 3 | $9.20 |
+| facebook · facebook_reels | $18.14 | 533 | 23 | 4.3% | 1 | $18.14 |
+| instagram · instagram_reels | $12.46 | 593 | 12 | 2.0% | 1 | $12.46 |
+| instagram · instagram_stories | $11.47 | 385 | 13 | 3.4% | 2 | $5.74 |
+| audience_network · an_classic | $9.60 | 635 | 271 | 42.7% | 10 | $0.96 |
+| facebook · facebook_stories | $1.18 | 28 | 0 | 0.0% | 0 | — |
+| facebook · facebook_reels_overlay | $0.93 | 107 | 1 | 0.9% | 0 | — |
+| facebook · instream_video | $0.79 | 13 | 1 | 7.7% | 0 | — |
+| audience_network · rewarded_video | $0.38 | 81 | 53 | 65.4% | 1 | $0.38 |
+| instagram · instagram_explore_grid_home | $0.12 | 20 | 1 | 5.0% | 0 | — |
+| facebook · facebook_profile_feed | $0.04 | 1 | 0 | 0.0% | 0 | — |
+| unknown · unknown | $0.04 | 1 | 0 | 0.0% | 0 | — |
+| instagram · instagram_search | $0.03 | 5 | 0 | 0.0% | 0 | — |
+| facebook · marketplace | $0.00 | 2 | 0 | 0.0% | 0 | — |
+| facebook · search | $0.00 | 1 | 0 | 0.0% | 0 | — |
