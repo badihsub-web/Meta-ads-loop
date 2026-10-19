@@ -50,7 +50,7 @@ clicks came from Audience Network for 3% of the spend (L-002). On Facebook and I
 
 Week 1 (scored 2026-10-19): ran Oct 12 to Oct 17, paused by Badi on Oct 17 at 8:02 AM. $118 spent,
 25 installs ($4.72 blended). Audience Network still 76% of clicks (red light). Facebook + Instagram alone:
-14 installs for $108.02, about $7.72 each. Paid subs: not in yet (App Store Connect). See L-007, L-008, L-009.
+14 installs for $107.98, about $7.71 each. Paid subs: not in yet (App Store Connect). See L-007, L-008, L-009.
 
 ## 5 · Fix and lesson
 
