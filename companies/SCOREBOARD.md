@@ -12,4 +12,4 @@ Rebuilt 2026-10-19 by scripts/ladder.py. Don't edit by hand.
 
 | Company | Round | What changed | Spend | Early signal | Cost each | Score | Cost each | Verdict |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| peaches | 2026-10-launch-v1 | baseline (launch, built before this system) | $118.00 | 25 | $4.72 | — | — | pending |
+| peaches | 2026-10-launch-v1 | baseline (launch, built before this system) | $118.00 | 25 | $4.72 | 0 | — | pending |

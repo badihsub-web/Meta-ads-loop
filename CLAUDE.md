@@ -74,6 +74,13 @@ Slash commands live in `.claude/commands/`. Plain words work too.
 - **The score is the real end, not the cheap step.** For an app that's paying subscribers, not
   installs. Installs are the early signal only. Ask for the down-funnel numbers every week.
 - **Budget moves of 20% or less at a time.** Bigger jumps reset Meta's learning.
+- **Don't stop a round before day 7 (L-007).** Pausing early throws away Meta's learning and leaves
+  the round unjudged. Before day 7, only a red health light or a money problem is a reason to pause.
+  If Badi wants to pause early, say what it costs, then it's his call.
+- **Read the creative text, not just the numbers (L-008).** On every launch check and every score,
+  read each live ad's body and headline back from Meta: right language, right offer, the app's words.
+- **Organic winners get the ad test (L-009).** Each week, the best organic Reel of the week is the
+  first candidate for the next ad test, before new paid creative is made.
 - **Don't edit `targets.json`** unless Badi agrees. Write why in `playbook/lessons.md`, with the date.
 - **Never delete old rounds or lessons.** Mark a lesson `retired` if it stops being true.
 - **Copy and creative are always a discussion.** Show copy as plain text first and wait for his

@@ -21,11 +21,20 @@ every number below it meaningless.
       "learning limited" (budget ÷ target cost per event × 7)
 - [ ] Placements decided on purpose (L-002: Audience Network can flood the click numbers)
 - [ ] Audience written in `campaign.md` (location, age, language, device)
+- [ ] **The ad set's name matches its real targeting** (L-007): read the targeting back from Meta.
+      If Advantage+ audience is on, the ages you typed are only a suggestion: name it that way
+- [ ] **No more ads than the budget can test** (L-006): about 1 ad per $7–8 a day, so 3–4 ads max
+      at $25/day. Park the rest in `content.md` as next
 - [ ] No other live campaign in the same account fighting for the same people
 
 ## Creative
 - [ ] Every ad's content is in `content.md` with an ID
 - [ ] Copy below is exactly what's in Meta, approved by Badi as plain text
+- [ ] **Read every live creative back from Meta** (`ads_get_creatives`: body and title, every card)
+      (L-008). Check each one:
+      - [ ] the language matches the market (no Spanish headline on a US ad, no English on a Quito ad)
+      - [ ] the offer matches what people get after the click (no "free trial" if there is no trial)
+      - [ ] the app's own words ("Flexible", not "Negotiables")
 - [ ] Ad-safe: no famous faces, no movie scenes, no claims we can't back up
 - [ ] The ad and the landing (store page, WhatsApp greeting) say the same thing
 - [ ] Sizes fit the placements (9:16 for Reels and Stories, 4:5 or 1:1 for feed)

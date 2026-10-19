@@ -42,6 +42,7 @@ Daily is alarms only. **No creative verdicts from one day of data.**
 - [ ] Rounds past the 7-day wait with enough people → suggest the verdict, then `/lesson`.
 - [ ] Next round planned for every company whose current test is judged (`/plan`).
 - [ ] Content runway: each company has at least 2 untested pieces ready in `content.md`.
+- [ ] Organic check: last week's posts per company. The best Reel becomes the next ad test (L-009).
 - [ ] Short weekly note to Badi: the score per company, the leak, what needs his approval.
 
 ### Every month
@@ -62,8 +63,8 @@ company's pages, new pieces made with `create-content`.
 |---|---|---|
 | Reading numbers, creating and editing ads | Meta Ads connector (official) | Connected |
 | Making new creative | `create-content` skill (Higgsfield, ElevenLabs) | Connected |
-| App installs, trials, paid subs | App Store Connect / Firebase (Peaches) | Typed in by hand for now |
+| App installs, trials, paid subs | App Store Connect / Firebase (Peaches) | Badi tells Claude in the weekly review |
 | WhatsApp conversations and sales | The company's WhatsApp inbox | Typed in by hand for now |
-| Posting organic to Instagram / Facebook | Not set up | Next step: find a posting tool that works with Claude |
+| Posting organic to Instagram / Facebook | `schedule-posts` skill (Business Suite in Chrome) | Working since Oct 12, 2026 |
 | Scoring and history | This repo + `scripts/ladder.py` | Ready |
 | Running the rhythm on a schedule | Claude scheduled tasks | Not set up yet; needs Badi's OK |

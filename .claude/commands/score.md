@@ -6,7 +6,8 @@ Score this round: $ARGUMENTS
 3. Write pulled.json in the shape LOOP.md shows. Say in `hooked_metric` which video metric you used.
 4. Make sure the down-funnel numbers in campaign.json → manual are current (ask Badi if not).
 5. Run `python3 scripts/ladder.py <round folder>`.
-6. Look at every ad's content next to its numbers: the hook (first line, first frame), the angle,
+6. Read every live ad's body and headline back from Meta (`ads_get_creatives`) and flag any wrong language,
+   wrong offer or old wording the same day (L-008). Then look at every ad's content next to its numbers: the hook (first line, first frame), the angle,
    the format, and whether the copy matches what people get after the click. Write what you see in
    content.md (best result, and a note per angle).
 7. Tell Badi the feedback block in 3-5 short lines: Working / Not working / Try next, with the

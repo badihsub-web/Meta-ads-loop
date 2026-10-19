@@ -7,7 +7,7 @@ Numbers pulled from Meta: 2026-10-19T06:50. Goal: **App (free forever + paid upg
 
 | What | Count | Cost each |
 |---|---:|---:|
-| **Paying subscriber** (the score) | **—** | **—** |
+| **Paying subscriber** (the score) | **0** | **—** |
 | Installed (early signal) | 25 | $4.72 |
 | Spend | $118.00 | |
 
@@ -27,7 +27,7 @@ Numbers pulled from Meta: 2026-10-19T06:50. Goal: **App (free forever + paid upg
 | Seen | 4,594 | | | | |
 | Clicked | 426 | Seen to clicked (link CTR) | 9.3% | 1.5% | 🟣 check: too good to be real |
 | Installed | 25 | Clicked to installed | 5.9% | 25.0% | 🔴 fix |
-| Paying subscriber | — | Installed to paying subscriber | — | 5.0% | · no data |
+| Paying subscriber | 0 | Installed to paying subscriber | 0.0% | 5.0% | ⚪ too early |
 
 Creative (video only):
 

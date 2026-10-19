@@ -7,7 +7,7 @@
   "baseline": null,
   "ad_account_id": "2670614096604811",
   "meta_campaign_id": "120252668096990136",
-  "meta_campaign_name": "Peaches · Launch · App Installs · Oct 2026 - Copy",
+  "meta_campaign_name": "Peaches \u00b7 Launch \u00b7 App Installs \u00b7 Oct 2026 - Copy",
   "currency": "USD",
   "daily_budget": 25,
   "target_cost_per_result": null,
@@ -15,9 +15,10 @@
   "last_change": "2026-10-12",
   "verdict": "pending",
   "manual": {
-    "paid": null,
+    "paid": 0,
     "store_installs": null,
     "rejected_ads": null,
-    "learning_limited": null
+    "learning_limited": null,
+    "_paid_note": "Badi, 2026-10-19: no paying subscribers yet; a few downloads."
   }
 }
