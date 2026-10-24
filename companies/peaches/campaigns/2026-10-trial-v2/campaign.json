@@ -1,0 +1,28 @@
+{
+  "company": "peaches",
+  "name": "2026-10-trial-v2",
+  "goal": "app_subscriptions",
+  "changed": "new baseline for the trial offer: FB+IG only, 3 ads, English copy with the 7-day trial",
+  "fix_target": "audience_network_clicks",
+  "baseline": null,
+  "ad_account_id": "2670614096604811",
+  "meta_campaign_id": "",
+  "meta_campaign_name": "",
+  "currency": "USD",
+  "daily_budget": 25,
+  "target_cost_per_result": 7,
+  "first_live": null,
+  "last_change": null,
+  "verdict": "pending",
+  "manual": {
+    "trials": null,
+    "paid": null,
+    "qualified": null,
+    "sales": null,
+    "booked": null,
+    "won": null,
+    "rejected_ads": null,
+    "learning_limited": null,
+    "_target_note": "Badi asked for Claude's rec 2026-10-24: max $35 per paying subscriber (break even on a $39.99 year plan). $7 per install is a holding bar (~real-feed cost in v1), not the payback math."
+  }
+}
