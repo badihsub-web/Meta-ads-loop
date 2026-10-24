@@ -6,13 +6,13 @@
   "fix_target": "audience_network_clicks",
   "baseline": null,
   "ad_account_id": "2670614096604811",
-  "meta_campaign_id": "120252841853490136",
+  "meta_campaign_id": "120252842448140136",
   "meta_campaign_name": "Peaches · Trial v2 · App Installs · Oct 2026",
   "currency": "USD",
   "daily_budget": 60,
   "target_cost_per_result": 7,
   "first_live": null,
-  "last_change": null,
+  "last_change": "2026-10-24",
   "verdict": "pending",
   "manual": {
     "trials": null,
@@ -30,28 +30,51 @@
   "ad_sets": [
     {
       "name": "01 · Interest · US 25–40 iPhone",
-      "id": null,
+      "id": "120252842466100136",
       "daily_budget": 20,
-      "status": "not built: needs interest IDs"
+      "ads": [
+        "120252842499400136",
+        "120252842499870136",
+        "120252842500170136",
+        "120252842500430136",
+        "120252842501020136"
+      ],
+      "note": "interests not set yet: no interest search in the connector"
     },
     {
-      "name": "02 · Demographic · US 25–40 · iPhone",
-      "id": "120252841864550136",
-      "daily_budget": 20
+      "name": "02 · Demographic · US 25–40 iPhone",
+      "id": "120252842460520136",
+      "daily_budget": 20,
+      "ads": [
+        "120252842501430136",
+        "120252842502030136",
+        "120252842502890136",
+        "120252842503440136",
+        "120252842504100136"
+      ]
     },
     {
-      "name": "03 · Retarget · Engaged 60d · not installed",
-      "id": "120252841865900136",
+      "name": "03 · Retarget · engaged 60d minus installers",
+      "id": "120252842465640136",
       "daily_budget": 20,
-      "audience_id": "120252841854190136"
+      "ads": [
+        "120252842504550136",
+        "120252842505450136",
+        "120252842505820136",
+        "120252842506140136",
+        "120252842506680136"
+      ]
     }
   ],
   "scheduled_start": "2026-10-25T06:00:00-04:00",
   "meta_app_id": "821281417499194",
   "store_url": "https://apps.apple.com/app/id6677005583",
   "creatives": {
-    "C-001": "1666324098436569",
-    "C-002": "2653026801862842"
+    "C-001": "1480293310618012",
+    "C-002": "1425410645766281",
+    "C-003": "1754879335739289",
+    "C-004": "2099646977584607",
+    "C-009": "1786659512644528"
   },
   "ads": {
     "02": {
@@ -62,5 +85,7 @@
       "C-001": "120252841881560136",
       "C-002": "120252841881710136"
     }
-  }
+  },
+  "retarget_audience_id": "120252842448870136",
+  "status_note": "Built 2026-10-24 ~7:30 AM Bogotá, all PAUSED, waiting for Badi's final go to activate."
 }
