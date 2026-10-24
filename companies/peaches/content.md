@@ -8,10 +8,11 @@ Status: **new** → **testing** → **winner** or **retired**.
 | C-001 | upload | Meta creative 944015408356457 | Static | Overload | "23 things" | 120252668097050136 | 14 installs, $4.30 each (2,233 impr., week 1) | testing |
 | C-002 | upload | Meta creative 2185710339014184 | Carousel | Not lazy, just overloaded | "You're not lazy" | 120252668097040136 | 9 installs, $4.96 each (1,810 impr., 9.8% CTR, most clicks Audience Network) | testing |
 | C-003 | upload | Meta creative 29280523364874009 | Video | Game: sort tasks | "Sorting game" | 120252668097060136 | ad: 8 impr. only · organic Reel Oct 15: 433 views, best post of the week | testing |
-| C-004 | upload | Meta creative 2362743774257461 | Video, UGC | Real person | "UGC guy" | 120252668097030136 | 8 impr. in week 1 (untested) | testing |
+| C-004 | upload (Ferni UGC, video 1438122858418495; same video as organic Reel "Whole to-do list" Oct 13) | Meta creative 2362743774257461 | Video, UGC | Real person | "UGC guy" | 120252668097030136 | 8 impr. in week 1 (untested) | testing |
 | C-005 | upload | Meta creative 2265662657614500 | Carousel | The method | "3 Non-Negotiables" | 120252668097020136 | 1 install, $3.64 (146 impr.) | testing |
 | C-006 | upload | Meta creative 1641641171054381 | Poster | Permission to rest | "Some things can wait" | 120252668097010136 | 1 install, $5.05 (148 impr.) | testing |
 | C-007 | upload | Meta creative 1779646333363496 | Video | Podcast clip | "Podcast" | 120252668097000136 | 0 installs, 114 clicks on 241 impr. (47% CTR: not real people) | testing |
+| C-009 | organic Reel Oct 21 (IG 18021074870949688) | Meta video 932592889728296 | Video 24s, mascot | Game: sort tasks, round 2 | "Round two. One second each" | 2026-10-trial-v2 | organic: not read yet | testing |
 | C-008 | upload | Meta creative 1052974851090265 | Video, motion graphic | Brand | "Motion Graphic" | 120252603171260136 (old traffic campaign, paused) | 156 profile visits, $24.55 | retired |
 
 Angles and hooks above are read from the ad names; fix them when Badi or the creative says otherwise.
