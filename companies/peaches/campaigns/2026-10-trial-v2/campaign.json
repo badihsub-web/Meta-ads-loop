@@ -6,8 +6,8 @@
   "fix_target": "audience_network_clicks",
   "baseline": null,
   "ad_account_id": "2670614096604811",
-  "meta_campaign_id": "",
-  "meta_campaign_name": "",
+  "meta_campaign_id": "120252841853490136",
+  "meta_campaign_name": "Peaches · Trial v2 · App Installs · Oct 2026",
   "currency": "USD",
   "daily_budget": 60,
   "target_cost_per_result": 7,
@@ -24,20 +24,43 @@
     "rejected_ads": null,
     "learning_limited": null,
     "_target_note": "Badi asked for Claude's rec 2026-10-24: max $35 per paying subscriber (break even on a $39.99 year plan). $7 per install is a holding bar (~real-feed cost in v1), not the payback math.",
-    "_structure_note": "Badi 2026-10-24: 1 campaign, 3 ad sets, 5 creatives picked from best performers. Retarget at $20/day by Badi's choice (Claude recommended $8: ~2,000 people, watch frequency)."
+    "_structure_note": "Badi 2026-10-24: 1 campaign, 3 ad sets, 5 creatives picked from best performers. Retarget at $20/day by Badi's choice (Claude recommended $8: ~2,000 people, watch frequency).",
+    "_setup_note": "Built PAUSED 2026-10-24. All ad sets: FB+IG only, iOS 14+, app not installed, Advantage+ audience off (hard 25–40 ages; retarget = only the engaged audience). Video ads wait on Badi's AI-label answer. Meta logs trials and subscriptions itself (app code, Analytics.swift), so a later round can optimize for trials."
   },
   "ad_sets": [
     {
       "name": "01 · Interest · US 25–40 iPhone",
+      "id": null,
+      "daily_budget": 20,
+      "status": "not built: needs interest IDs"
+    },
+    {
+      "name": "02 · Demographic · US 25–40 · iPhone",
+      "id": "120252841864550136",
       "daily_budget": 20
     },
     {
-      "name": "02 · Demographic · US 25–40 iPhone",
-      "daily_budget": 20
-    },
-    {
-      "name": "03 · Retarget · engaged 60d minus installers",
-      "daily_budget": 20
+      "name": "03 · Retarget · Engaged 60d · not installed",
+      "id": "120252841865900136",
+      "daily_budget": 20,
+      "audience_id": "120252841854190136"
     }
-  ]
+  ],
+  "scheduled_start": "2026-10-25T06:00:00-04:00",
+  "meta_app_id": "821281417499194",
+  "store_url": "https://apps.apple.com/app/id6677005583",
+  "creatives": {
+    "C-001": "1666324098436569",
+    "C-002": "2653026801862842"
+  },
+  "ads": {
+    "02": {
+      "C-001": "120252841881020136",
+      "C-002": "120252841881310136"
+    },
+    "03": {
+      "C-001": "120252841881560136",
+      "C-002": "120252841881710136"
+    }
+  }
 }
