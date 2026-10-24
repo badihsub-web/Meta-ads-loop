@@ -24,12 +24,24 @@
     "rejected_ads": null,
     "learning_limited": null,
     "_target_note": "Badi asked for Claude's rec 2026-10-24: max $35 per paying subscriber (break even on a $39.99 year plan). $7 per install is a holding bar (~real-feed cost in v1), not the payback math.",
-    "_structure_note": "Badi 2026-10-24: 1 campaign, 3 ad sets, 5 creatives picked from best performers. Retarget at $20/day by Badi's choice (Claude recommended $8: ~2,000 people, watch frequency).",
+    "_structure_note": "Badi 2026-10-24: 1 campaign, 3 ad sets, 5 creatives picked from best performers. Retarget at $20/day by Badi's choice (Claude recommended $8: ~2,000 people, watch frequency). Badi renamed 2026-10-24: 1 Broad (US iPhone 18+, Advantage+ audience on), 2 Interest (Claude picks), 3 Retargeting.",
     "_setup_note": "Built PAUSED 2026-10-24. All ad sets: FB+IG only, iOS 14+, app not installed, Advantage+ audience off (hard 25–40 ages; retarget = only the engaged audience). Video ads wait on Badi's AI-label answer. Meta logs trials and subscriptions itself (app code, Analytics.swift), so a later round can optimize for trials."
   },
   "ad_sets": [
     {
-      "name": "01 · Interest · US 25–40 iPhone",
+      "name": "01 · Broad · US iPhone",
+      "id": "120252842460520136",
+      "daily_budget": 20,
+      "ads": [
+        "120252842501430136",
+        "120252842502030136",
+        "120252842502890136",
+        "120252842503440136",
+        "120252842504100136"
+      ]
+    },
+    {
+      "name": "02 · Interest · productivity · US 25–40 iPhone",
       "id": "120252842466100136",
       "daily_budget": 20,
       "ads": [
@@ -42,19 +54,7 @@
       "note": "interests not set yet: no interest search in the connector"
     },
     {
-      "name": "02 · Demographic · US 25–40 iPhone",
-      "id": "120252842460520136",
-      "daily_budget": 20,
-      "ads": [
-        "120252842501430136",
-        "120252842502030136",
-        "120252842502890136",
-        "120252842503440136",
-        "120252842504100136"
-      ]
-    },
-    {
-      "name": "03 · Retarget · engaged 60d minus installers",
+      "name": "03 · Retargeting · engaged 60d · no installers",
       "id": "120252842465640136",
       "daily_budget": 20,
       "ads": [

@@ -11,9 +11,9 @@ Plan approved by Badi 2026-10-24.
 - **Target cost per early signal:** $7 per install as a holding bar (v1 real-feed cost was $7.71). Reality check: at $7 per install we need 1 in 5 installs to pay to hit $35. Week 1 tells us if that's possible.
 - **Audience:** US · 25–40 · iPhone · English (check Advantage+ audience isn't widening it to 18+, L-007)
 - **Structure (Badi, 2026-10-24):** 1 campaign · 3 ad sets, $20/day each (ad set budgets) · the same 5 ads in each
-  - 01 Interest: US, 25–40, iPhone, productivity / planner / to-do app interests, Advantage+ audience off
-  - 02 Demographic: US, 25–40, iPhone, no interests, Advantage+ audience off
-  - 03 Retarget: engaged with the Peaches Page or Instagram, or watched our ads, last 60 days, minus people who installed. Badi chose $20/day; Claude recommended $8 (only ~2,000 people). Watch frequency daily; flag at 3x.
+  - 01 Broad: US, iPhone, 18+, no interests, Advantage+ audience on (Badi: "1 Broad")
+  - 02 Interest: US, 25–40, iPhone, productivity / planner / to-do app interests (Claude's pick), Advantage+ audience off
+  - 03 Retargeting: engaged with the Peaches Page or Instagram, or watched our ads, last 60 days, minus people who installed. Badi chose $20/day; Claude recommended $8 (only ~2,000 people). Watch frequency daily; flag at 3x.
 - **Placements:** Facebook + Instagram only (no Audience Network)
 - **Daily budget:** $60 USD total → about 2–3 installs a day per ad set at ~$7.70, far under Meta's ~50 a week. Learning stays limited; accepted for now. ~$420 for 7 days (October has $482 left).
 - **Start:** Sun 2026-10-25 06:00 Eastern (`2026-10-25T06:00:00-04:00`), runs to at least Nov 1 (7 days, L-007)
